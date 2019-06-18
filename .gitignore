@@ -47,3 +47,22 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/storage/*
+!/storage/.keep
+
+/public/assets
+.byebug_history
+
+/public/packs
+/public/packs-test
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+*.swp
+.DS_Store
